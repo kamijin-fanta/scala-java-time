@@ -7,7 +7,7 @@ class RichInt(val num: Int) extends AnyVal {
 
   def hours: Duration = DurationStatics.Hours(num)
 
-  def minutes: Duration = DurationStatics.Millis(num)
+  def minutes: Duration = DurationStatics.Minutes(num)
 
   def seconds: Duration = DurationStatics.Seconds(num)
 
