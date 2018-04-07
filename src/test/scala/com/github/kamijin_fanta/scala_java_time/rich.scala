@@ -14,7 +14,7 @@ class rich extends FunSpec {
   describe("rich duration") {
     import Implicits.{richDuration, richInt}
     it("standard") {
-      assert(1.seconds + 2.minutes == Duration.ofSeconds(1).plusMillis(2))
+      assert(1.seconds + 2.minutes == Duration.ofSeconds(1).plusMinutes(2))
     }
   }
   describe("rich offset datetime") {
